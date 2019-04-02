@@ -1,0 +1,241 @@
+body {
+  background-color: white;
+}
+	/*PARENT CONTAINER*/
+		#main_cont {
+			background-color: white;
+		}
+
+	/*ROW 1 START*/
+		#row1col1{
+			width:100%;
+			background-color: black;
+		}
+		#contact{
+			padding-left:70px;
+			color:white;
+			padding-top:5px;
+		}
+		#signup, #signin{
+			color:white;
+			padding-top: 5px;
+		}
+		#fb, #g, #insta, #tw{
+			font-size: 16px;
+			color: white;
+			margin: 10px;
+		}
+	/*ROW 1 END*/
+
+	/*ROW 2 START*/
+		#row2col1{
+			height:70px;
+			width:100%;
+			background-color: white;
+		}
+		/*LOGO PLACEMENT*/
+		#logo{
+			padding-left: 70px;
+			padding-top:15px;
+			padding-bottom:15px;
+			margin-top:10px;
+		}
+		/*NAVBAR*/
+		#nav{
+			padding-top:10px;
+		}
+	/*ROW 2 END*/
+	
+	/*ROW 3 START*/
+		#new_acc{
+			padding-top:15px;
+			padding-left:85px;
+		}
+		.texture{
+			padding-top:20px;
+			color: #2f89fc;
+		}
+		#cara{
+			width:100%;
+			height: 100px;
+		}
+		.banners{
+			width:100%;
+			height:100px;
+		}
+		#deals{
+			height:50px;
+			background-color: black;
+		}
+		#viewall, #brands{
+			padding-top: 10px;
+			margin-top:5px;
+			color: white;
+		}
+		#viewall{
+			padding-left: 10px;
+		}
+		#brands{
+			padding-left:90px;
+		}
+	/*ROW 3 END*/
+	/* featured brands*/
+		
+		
+	/* featured brands end*/
+	/*ROW 4 START*/
+		.pass{
+			border-color: #ebebe3;
+			border-style:solid;
+			border-spacing: 1px;
+			border-width: 2px;
+			height:35px;
+		}
+		#changepass{
+			border-color: #0075f6;
+			border-radius: 0cm;
+			color:#0075f6 ;
+			align-content: center;
+		}
+		#custdetz{
+			padding-left: 90px;
+		}
+		#address{
+			margin-left: 90px;
+		}
+		#cust{
+			width:80%;
+		}
+		#style1{
+			background-color:#66B2FF;
+			border-radius: 5px;
+			color:white;
+			font-size:8pt;
+			letter-spacing: 1px;
+			
+		}
+		#style2{
+			background-color:#66B2FF;
+			border-radius: 5px;
+			color:white;
+			font-size:8pt;
+			letter-spacing: 1px;
+		}
+		#style3{
+			background-color:#009900;
+			border-radius: 5px;
+			color:white;
+			font-size:8pt;
+			letter-spacing: 1px;
+		}
+		#style4{
+			background-color:#B22222;
+			border-radius: 5px;
+			color:white;
+			font-size:8pt;
+			letter-spacing: 1px;
+		}
+		#style5{
+			background-color:#F5CA07;
+			border-radius: 5px;
+			color:black;
+			font-size:8pt;
+			letter-spacing: 1px;
+		}
+		.snd{
+			border-color: #61C5B1;
+			background-color: white;
+			color: #61C5B1;
+			border-width:1px;
+			border-style: solid; 
+		}
+		#status{
+			margin-left: 80px;
+		}
+		#cart{
+			margin-left:80px;
+		}
+		#marg{
+			width: 70%;
+		}
+		#questions{
+			width: 80%;
+		}
+		.thumbs{
+			width: 50px;
+			height:50px;
+		}
+		.box{
+			width: 60px;
+			height: 40px;
+			border-color: black;
+			border-style: solid;
+		}
+		.longform{
+			align-items: center;
+			padding-left: 90px;
+		}
+		.bordercommon{
+			border-color: #E5E8EB;
+			border-style: solid;
+			border-width:2px;
+			width: 250px;
+			height:32px;
+			padding-left:20px;
+			padding-right:30px;
+		}
+	/*ROW 4 END*/
+	
+	/*ROW 5 START*/
+		#row5{
+		padding-left:85px;
+		}
+		#message{
+			border-color: #0075f6;
+			border-radius: 0cm;
+			color:#0075f6 ;
+			align-content: center;
+			align: center;
+		}
+	/*ROW 5 END*/
+	
+	
+	/*FOOTER START*/
+	/*ROW 5 START*/
+		#row5{
+			background-color: black;
+		}
+		#about{
+			font-size: 24pt; 
+			color: white;"
+		}
+		#random {
+			font-size: 11pt;
+		}
+		#monthly{
+			font-variant: !important; 
+			color: white"
+		}
+		#blog{
+			font-size: 18pt; 
+			color: white;"
+		}
+		#contactus{
+			font-size: 24pt; 
+			color: white;"
+		}
+	/*ROW 5 END*/
+	
+	/*ROW 6 START*/
+		#row6{
+			height: 100px;
+			background-color: #141414;
+		}
+		#footer{
+			font-size: 10pt; 
+			color: white; 
+			padding-left: 50px;
+			padding-top:40px;
+		}			
+	/*ROW 6 END*/	
+	/*FOOTER END*/
