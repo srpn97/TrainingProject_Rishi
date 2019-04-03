@@ -21,7 +21,7 @@
 							<p id="contact">Contact Us on +91 40 66217777</p>
 						</div>
 						<div class="col-md-1" id="signin">
-							<p><i class="fa fa-sign-in"></i>Sign In</p>
+							<p><a href="login"></a><i class="fa fa-sign-in"></i>Sign In</p>
 						</div>
 						<div class="col-md-1" id="signup">
 							<p><i class="fa fa-user"></i>Sign Up</p>
@@ -140,11 +140,12 @@
 			<br>
 			
 			<!-- CAROUSEL END -->
-			<!-- DEALS OF THE DAY START -->
+			
+			<!-- DEALS NAV BAR START -->
 			<div class= "row">
 					<div class="container-fluid" id="deals" >
 						<div class="col-md-8">
-							<p id="brands">Deals of the day</p>
+							<h4 id="brands">Deals of the day</h4>
 						</div>
 						<div class="col-md-1" id="signin">
 							<!-- <p><i class="fa fa-sign-in"></i>Sign In</p> -->
@@ -161,7 +162,106 @@
 			<br>
 			
 			
+			<!--DEALS NAV BAR END -->
+			
+			<!-- DEALS OF THE DAY START -->
+			<div class="row">
+								
+						<div class="col-md-12">	
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/deals1.jpeg" class="deals" alt="Avatar" style="width:90%">
+  								<div class="container" id=cont>
+    								<h4 ><b>Skybags</b></h4> 
+   									<p>Under $999</p> 
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button>
+  								</div>
+							</div>
+							</div>
+							
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/deals2.jpeg" alt="Avatar" class="deals" style="width:90%">
+  								<div class="container" id=cont>
+    								<h4><b>Men's Footwear</b></h4> 
+   									<p>Upto 60% off</p> 
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button>
+  								</div>
+							</div>
+							</div>
+							
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/deals3.jpeg" alt="Avatar" class="deals" style="width:90%">
+  								<div class="container" id=cont>
+    								<h4><b>Laptop bags</b></h4> 
+   									<p>From $249</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/deals4.jpeg" alt="Avatar" class="deals" style="width:90%">
+  								<div class="container" id=cont>
+    								<h4><b>Adidas, Reebok</b></h4> 
+   									<p>Upto 50% off</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/deals5.jpeg" alt="Avatar" class="deals" style="width:90%">
+  								<div class="container" id=cont>
+    								<h4><b>Times, Maxima..</b></h4> 
+   									<p>under $999</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/deals6.jpeg" alt="Avatar" class="deals" style="width:90%">
+  								<div class="container" id=cont>
+    								<h4><b>Memory Card</b></h4> 
+   									<p>Extra 5% offr</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+						</div>
+				</div><br>
+			
 			<!-- DEALS OF THE DAY END -->
+			
+			<!-- FEATURED NAV BAR START -->
+			<div class= "row">
+					<div class="container-fluid" id="deals" >
+						<div class="col-md-8">
+							<p id="brands">Featured Brands</p>
+						</div>
+						<div class="col-md-1" id="signin">
+							<!-- <p><i class="fa fa-sign-in"></i>Sign In</p> -->
+						</div>
+						<div class="col-md-1" id="signup">
+							<!-- <p><i class="fa fa-user"></i>Sign Up</p> -->
+						</div>
+						<div class="col-md-2" >
+							<button type="button" class="btn btn-primary" id="viewall">View All</button>
+						</div>
+					</div>
+			</div>
+			
+			<br>
+			
+			
+			<!-- FEATURED NAV BAR END -->
 			
 			<!-- FEATURED BRANDS -->
 			
@@ -182,11 +282,303 @@
 			
 			<!-- FEATURED BRANDS END -->
 			
+			<!-- MOBILE NAV BAR START -->
+			<div class= "row">
+					<div class="container-fluid" id="deals" >
+						<div class="col-md-8">
+							<p id="brands">Mobile New Launches</p>
+						</div>
+						<div class="col-md-1" id="signin">
+							<!-- <p><i class="fa fa-sign-in"></i>Sign In</p> -->
+						</div>
+						<div class="col-md-1" id="signup">
+							<!-- <p><i class="fa fa-user"></i>Sign Up</p> -->
+						</div>
+						<div class="col-md-2" >
+							<button type="button" class="btn btn-primary" id="viewall">View All</button>
+						</div>
+					</div>
+			</div>
+			
+			<br>
 			
 			
+			<!-- MOBIEL NAV BAR END -->
+			
+			<!-- MOBILE NEW LAUNCHES START -->
+			<div class="row">
+								
+						<div class="col-md-12">	
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/mobile1.jpeg" class="deals1" alt="Avatar" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/mobile2.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/mobile3.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/mobile4.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/mobile5.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button>
+  								</div>
+							</div>
+							</div>
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/mobile6.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+						</div>
+				</div><br>
+			
+			<!-- MOBILE NEW LAUNCHES END -->
 			
 			
+			<!-- HOME DECOR BAR START -->
+			<div class= "row">
+					<div class="container-fluid" id="deals" >
+						<div class="col-md-8">
+							<p id="brands">Home Decor Range</p>
+						</div>
+						<div class="col-md-1" id="signin">
+							<!-- <p><i class="fa fa-sign-in"></i>Sign In</p> -->
+						</div>
+						<div class="col-md-1" id="signup">
+							<!-- <p><i class="fa fa-user"></i>Sign Up</p> -->
+						</div>
+						<div class="col-md-2" >
+							<button type="button" class="btn btn-primary" id="viewall">View All</button>
+						</div>
+					</div>
+			</div>
 			
+			<br>
+			
+			
+			<!-- HOME DECOR NAV BAR END -->
+			
+			<!-- HOME DECOR START -->
+			<div class="row">
+								
+						<div class="col-md-12">	
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/home1.jpeg" class="deals1" alt="Avatar" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/home2.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/home3.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+									<button type="button" class="btn btn-primary" style="width:150px" >View</button>
+  								</div>
+							</div>
+							</div>
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/home4.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/home5.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/home6.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+						</div>
+				</div><br>
+			
+			<!-- HOME DECOR END -->
+			
+			<!-- FASHION ACCESSORIES START -->
+			<div class= "row">
+					<div class="container-fluid" id="deals" >
+						<div class="col-md-8">
+							<p id="brands">Fashion Accessories</p>
+						</div>
+						<div class="col-md-1" id="signin">
+							<!-- <p><i class="fa fa-sign-in"></i>Sign In</p> -->
+						</div>
+						<div class="col-md-1" id="signup">
+							<!-- <p><i class="fa fa-user"></i>Sign Up</p> -->
+						</div>
+						<div class="col-md-2" >
+							<button type="button" class="btn btn-primary" id="viewall">View All</button>
+						</div>
+					</div>
+			</div>
+			
+			<br>
+			
+			
+			<!-- FASHION ACCESSORIES NAV BAR END -->
+			
+			<!-- FASHION ACCESSORIES START -->
+			<div class="row">
+								
+						<div class="col-md-12">	
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/fashion1.jpeg" class="deals1" alt="Avatar" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/fashion2.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/fashion3.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/fashion4.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/fashion5.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+							
+							<div class="col-md-2">	
+							<div class="card">
+  								<img src="images/fashion6.jpeg" alt="Avatar" class="deals1" style="width:60%">
+  								<div class="container" id=cont>
+    								<h4><b>John Doe</b></h4> 
+   									<p>Architect & Engineer</p>
+   									<button type="button" class="btn btn-primary" style="width:150px" >View</button> 
+  								</div>
+							</div>
+							</div>
+						</div>
+				</div><br>
+			
+			<!-- FASHION ACCESSORIES END -->
 			
 			
 			
@@ -197,31 +589,38 @@
 			<div class="row">
 				<div class="container-fluid" id="row5">
 					<div class="col-md-3">
-						<p id="about"> About Us </p><br>
+						<p id="about"> <strong>About Us</strong> </p><br>
 						<p id="random" >Random text, but not random enough to get enough to content to fill the void.
 						</p><br>
-						<p id="monthly"> JOIN OUR MONTHLY NEWSLETTER</p>
-						<form>
-							<input type="text"> <i class="fa fa-paper-plane" aria-hidden="true"></i>
-						</form>
+						<hr>
+						<p id="monthly"> <strong>JOIN OUR MONTHLY NEWSLETTER</strong> </p>
+						<form class="row">
+					<div style="padding-left:15px;padding-right:0px" class="col-md-10">
+   						<input style = "border-radius:0;border-bottom:none" class="form-control" type="text" aria-label="Search">
+   					</div>
+   					<div style="padding-left:0;padding-right:15px;" class="col-md-2">
+   						<button style = "border-radius:0; background:#337AB7;" class="btn " type="submit"><i class="glyphicon glyphicon-send" style = "color:white;"></i></button>
+   					</div>
+					</form>
+					<br>
 					</div>
 				<div class="col-md-3">
-					<p id="blog"> Blog </p><br>
+					<p id="blog"><strong>Blog</strong></p><br>
 						<ul style="color: white">
-							<li> <img src="images/detailsquare1.jpg" width="30" height="30" > Blog Post Name</li>
+							<li> <img src="images/detailsquare1.jpg" width="40" height="40" > Blog Post Name</li>
 						</ul>
 						<ul style="color: white">
-							<li> <img src="images/detailsquare2.jpg" width="30" height="30" > Blog Post Name</li>
+							<li> <img src="images/detailsquare2.jpg" width="40" height="40" > Blog Post Name</li>
 						</ul>
 						<ul style="color: white">
-							<li> <img src="images/detailsquare3.jpg" width="30" height="30" > Very Long Blog Post Name</li>
+							<li> <img src="images/detailsquare3.jpg" width="40" height="40" > Very Long Blog Post Name</li>
 						</ul>
 				</div>
 				<div class="col-md-3">
-					<p id="contactus"> Contact Us </p><br>
-					<p> TECHASPECT SOLUTIONS PVT. LTD. <br> PLOT NO. 38, N HEIGHTS, 3RD <br> FLOOR<br> HITECH CITY PHASE 2,<br> MADHAPUR<br> HYDERABAD, TELANGANA -<br> 500081<br> INDIA</p>
+					<p id="contactus"><strong>Contact Us</strong></p><br>
+					<p id=contactu> TECHASPECT SOLUTIONS PVT. LTD. <br> PLOT NO. 38, N HEIGHTS, 3RD <br> FLOOR<br> HITECH CITY PHASE 2,<br> MADHAPUR<br> HYDERABAD, TELANGANA -<br> 500081<br> INDIA</p>
 						<form>
-							<button type="submit" class="btn btn-primary">GO TO CONTACT PAGE</button><br><br>
+							<button type="submit" class="btn btn-primary" style="background:#5CB85C;">GO TO CONTACT PAGE</button><br><br>
 						</form>
 				</div>
 				<div class="col-md-3">
@@ -245,7 +644,7 @@
 		<!-- ROW 6 START -->
 
 		<div class="row" id="row6">
-			<div class="container-fluid" style="background-color: #141414" >
+			<div class="container-fluid" style="background-color: black" >
 				<p id="footer"> &#169; TechAspect Solutions Private Limited. </p>
 			</div>
 		</div>
