@@ -8,39 +8,40 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
-
-import com.tadigital.ecommerce.customer.entity.User;
 import com.tadigital.ecommerce.customer.service.UserService;
 
+@WebServlet("/report")
 @SuppressWarnings("serial")
-@WebServlet("/login")
-public class LoginProcessControllerServlet extends HttpServlet {
+public class ReportBugControllerServlet extends HttpServlet {
+
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		RequestDispatcher rd = req.getRequestDispatcher("SignInSignUpForms.jsp");
-		rd.forward(req, resp);
+		try {
+			RequestDispatcher rd = req.getRequestDispatcher("index.jsp");
+			rd.forward(req, resp);
+		} catch (ServletException se) {
+			se.printStackTrace();
+		} finally {
+
+		}
+
 	}
-	
+
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		String email = req.getParameter("f1");
-		String password = req.getParameter("f2");
-		
-		User user = new User();
-		user.setEmail(email);
-		user.setPassword(password);
-		
 		UserService userService = new UserService();
-		boolean status = userService.loginUser(user);	
-		if(status) {
-			req.setAttribute("stat2", "F");
-			RequestDispatcher rd = req.getRequestDispatcher("CustomerAccount.jsp");
-			rd.forward(req, resp);
-		} else {
-				req.setAttribute("stat2", "S");
-			RequestDispatcher rd = req.getRequestDispatcher("SignInSignUpForms.jsp");
+		req.setAttribute("stat", "S");
+		HttpSession ses = req.getSession();
+		String est = (String) ses.getAttribute("EST");
+		if (est != null) {
+			userService.ReportError(est);
+			RequestDispatcher rd = req.getRequestDispatcher("ExceptionPage.jsp");
 			rd.forward(req, resp);
 		}
 	}
-}
+
+	}
+
+	
