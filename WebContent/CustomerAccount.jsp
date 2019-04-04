@@ -123,23 +123,23 @@
 						<p><strong>CHANGE PASSWORD</strong></p>
 						<p style="color: #0075f6;"><strong>_______________</strong></p>	
 						
-						<form>
+						<form  action=change method=post>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<label for="name">Old Password</label><br> <input type="text" class="pass" size=65;>
+									<label>Old Password</label><br> <input type="password" name=old_pass class="pass" size=65;>
 								</div>
 							</div>
 						</div>
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-									<label for="email">New Password</label> <input type="text" class="pass" size=65;>
+									<label for="email">New Password</label> <input type="password" name=new_pass class="pass" size=65;>
 								</div>	
 							</div>
 							<div class="col-md-6">
 									<div class="form-group">
-										<label for="Subject">Retype new Password</label> <input type="text" class="pass" size=65;>
+										<label for="Subject">Retype new Password</label> <input type="password" name=new_pass2 class="pass" size=65;>
 									</div>
 							</div>
 						</div>
