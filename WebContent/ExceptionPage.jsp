@@ -112,18 +112,39 @@
 								<div class="container" >
 									<div class="col-md-4 center-block text-center"></div>
 									<div class="col-md-2 center-block text-center">
-								<form action=index.jsp>
+								<form action=report >
 									<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-home"></span>Home</button>
 								</form>
 								</div>
 								<div class="col-md-2 center-block text-center">
-								<form>
+								<form action=report method=post>
 									<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-wrench"></span>Report</button>
 								</form>
 								</div>
 								<div class="col-md-4 center-block text-center"></div>
 							</div>
 						</div><br><br>
+						
+						<%
+						String stat= (String)request.getAttribute("stat");
+						
+									if(stat!=null)
+									{
+										if(stat.equals("S"))
+										{
+											%>
+											<div class="alert alert-success">Error Report Successfully Sent.</div>
+											
+											<%
+										}
+										else
+										{%>
+											<div class="alert alert-danger">Task failed.</div><% 
+										}
+									}
+					%>
+						
+						
 					<div class= "row">
 						<div class="container" >
 							<div class="col-md-12 center-block text-center">
@@ -131,7 +152,8 @@
 									<%@ page isErrorPage="true" import="java.io.*" %>
 									<%
 										StringWriter errors = new StringWriter();
-		    							exception.printStackTrace(new PrintWriter(errors));
+				    					exception.printStackTrace(new PrintWriter(errors));
+				    					session.setAttribute("EST", errors.toString());
 										out.print(errors.toString());
 									 %>
 								</div>
